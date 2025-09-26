@@ -42,17 +42,15 @@ public class SimpleCalculator {
           System.out.println("Result: " + result);
         } else {
           System.out.println("Error Division By Zero!");
-
+        }
           break;
           default:
-            System.out.println("Invalid Operation Please Use (+,-,*,/)");
-        }
-        input.close();
+            System.out.println("Invalid Operation Please Use (+,-,*,/)");        
     }
+    input.close();//Program Close
   }
 }
-        
-        
+
 
     
 
